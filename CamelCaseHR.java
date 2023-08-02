@@ -1,0 +1,1 @@
+package HackerRank;import java.util.Scanner;public class CamelCaseHR {    public static void main(String[] args) {        Scanner scanner = new Scanner(System.in);        String identifier = scanner.next();        scanner.close();        final String[] words = identifier.split("[A-Z]");        System.out.println(words.length);    }}
